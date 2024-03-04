@@ -1,0 +1,22 @@
+.fruits{
+    width: 100%;
+    overflow: hidden;
+    display: inline-flex;
+    overflow: scroll;
+    height: 100vh;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    
+}
+
+
+
+.fruits::-webkit-scrollbar{
+    display: none;
+}
+
+@media(max-width:600px){
+    .fruits{
+        height: 80vh;
+    }
+}

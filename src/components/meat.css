@@ -1,0 +1,86 @@
+
+
+.fruit{
+    width: 350px;
+    margin:0px 20px;
+    display: flex;
+    align-items: center;
+    text-align:start;
+    position: relative;
+    
+}
+.desc{
+    position: absolute;
+    top: 350px;
+    left: 0;
+}
+.fruit img {
+    width: 100%;
+    border: 1px solid green ;
+    border-radius: 10px;
+}
+
+.shop{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quants{
+    width: 100px;
+    height: 25px;
+    background-color:transparent;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.quants button{
+    width: 25px;
+    height: 100%;
+    border: 0;
+    outline: none;
+    font-size: 22px;
+}
+
+.quants input{
+    width: 50px;
+    outline: none;
+    border: 0;
+    background-color:antiquewhite;
+    height: 100%;
+    text-align: center;
+}
+
+.quants input::-webkit-inner-spin-button{
+    display: none;
+}
+
+.shop i{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: green;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconanimation{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+@media(max-width:600px){
+    .desc{
+        margin-bottom: 20%;
+    }
+
+   
+
+   
+}
