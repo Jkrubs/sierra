@@ -5,14 +5,14 @@ export const Fruit = (props) => {
 
   return (
         <a href="##">
-          <div className='fruit'>
+          <div className='fruit' key={props.id}>
         <img src={props.image} alt=''/>
         <div className="iconanimation">
         <i class="fa-regular fa-heart"></i>
         </div>
         <div className="desc">
         <h3>{props.name}</h3>
-        <h4>Ksh{props.price}</h4>
+        <h4>Ksh{props.price} </h4>
         <div className="shop">
             <div className="quants">
                 <button>-</button>

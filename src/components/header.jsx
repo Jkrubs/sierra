@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './header.css'
+import logo from '../images/logo.jpeg'
 export const Header = () => {
     const [mobileMenu,setMobileMenu]=useState(true)
     function toggleMenu(){
@@ -9,7 +10,7 @@ export const Header = () => {
     <div className='header'>
         <div className='logo'>
             <i onClick={toggleMenu} class="fa-solid fa-bars"></i>
-            <img src='/images/logo.jpeg' alt=''/>
+            <img src={logo} alt=''/>
         </div>
         <div className={mobileMenu?"submenu":"hidemenu"}>
             <ul>

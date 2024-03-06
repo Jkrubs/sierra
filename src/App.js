@@ -7,6 +7,7 @@ import { Footer } from './components/footer';
 import Fruits from './components/fruits';
 import { Header } from './components/header';
 import { Hero } from './components/hero';
+import { Message } from './components/message';
 import { Process } from './components/process';
 import { Title } from './components/title';
 
@@ -22,6 +23,7 @@ function App() {
       <Title name="Vegetebles"/>
       <Vegetables/>
       <Process/>
+      <Message/>
       <Footer/>
     </div>
   );
