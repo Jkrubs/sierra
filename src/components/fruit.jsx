@@ -16,7 +16,7 @@ export const Fruit = (props) => {
         <div className="shop">
             <div className="quants">
                 <button>-</button>
-                <input type="number"/>
+                <input type="number" placeholder='0'/>
                 <button>+</button>
             </div>
             <i class="fa-solid fa-cart-shopping"></i>

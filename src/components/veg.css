@@ -76,6 +76,24 @@
 
 @media (max-width:600px){
     .desc{
-        margin-bottom: 5%;
+        width:300px;
+        margin-bottom: 20%;
+        top: 300px;
+        padding-block: 10px;
+    }
+    .desc h4{
+    margin: 10px 0;
+    }
+
+    .desc h3{
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .fruit{
+       width: 300px;
+    }
+    .shop{
+        width:300px;
     }
 }
