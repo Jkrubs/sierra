@@ -1,4 +1,6 @@
-
+a::-moz-selection{
+    background-color: transparent;
+}
 .fruit{
     width: 350px;
     margin:0px 20px;
